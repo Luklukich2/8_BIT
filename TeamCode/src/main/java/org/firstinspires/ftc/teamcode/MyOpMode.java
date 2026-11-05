@@ -1,28 +1,10 @@
-// В начале файла обозначается пакет (папка), в котором он находится
 package org.firstinspires.ftc.teamcode;
-// Затем идет импорт внешних классов или функций или из них
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-/*
- * Пометка или аннотация над объявлением класса добавляет его
- * в меню DS как TeleOp или Autonomous соответственно
- */
 @TeleOp
-/*
- * Название класса должно соответствовать названию файла
- * "extends LinearOpMode" делает класс (файл) запускаемой программой
- */
 public class MyOpMode extends LinearOpMode {
-    /*
-     * Здесь можно объявлять свои переменные и функции
-     */
-    /**
-     * runOpMode() - главная функция, с которой начинается
-     * исполнение программы
-     */
-    /* Объявляем переменную-объект мотора */
     DcMotor myMotor0 = null;
     DcMotor myMotor1 = null;
     DcMotor myMotor2 = null;
