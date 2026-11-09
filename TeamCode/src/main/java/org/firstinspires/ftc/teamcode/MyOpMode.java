@@ -29,12 +29,6 @@ public class MyOpMode extends LinearOpMode {
             myMotor2.setPower(-gamepad1.left_stick_x);
             myMotor3.setPower(-gamepad1.left_stick_x);
 
-            myMotor0.setPower(-gamepad1.right_stick_y);
-            myMotor1.setPower(gamepad1.right_stick_y);
-
-            myMotor3.setPower(-gamepad1.right_stick_y);
-            myMotor2.setPower(gamepad1.right_stick_y);
-
             myMotor0.setPower(gamepad1.right_stick_x);
             myMotor1.setPower(-gamepad1.right_stick_x);
 
